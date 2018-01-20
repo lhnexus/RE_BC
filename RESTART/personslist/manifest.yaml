@@ -1,0 +1,7 @@
+---
+applications:
+- name: personslist
+  memory: 256MB
+  instances: 1
+  buildpack: nodejs_buildpack
+  command: node app.js

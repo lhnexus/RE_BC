@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="odata.rebc">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/" source-path="/target/odata.rebc"/>
+        <wb-resource deploy-path="/" source-path="/src/main/java/odata/olingoV4"/>
+        <dependent-module archiveName="odata-commons-api-4.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/i048920/.m2/repository/org/apache/olingo/odata-commons-api/4.0.0/odata-commons-api-4.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="odata-client-api-4.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/i048920/.m2/repository/org/apache/olingo/odata-client-api/4.0.0/odata-client-api-4.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="odata-server-api-4.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/i048920/.m2/repository/org/apache/olingo/odata-server-api/4.0.0/odata-server-api-4.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.11.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/i048920/.m2/repository/org/slf4j/slf4j-api/1.7.11/slf4j-api-1.7.11.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/odata.olingoV4/target/classes"/>
+        <property name="context-root" value="odata.rebc"/>
+    </wb-module>
+</project-modules>
